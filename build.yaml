@@ -1,2 +1,2 @@
 board: [seeeduino_xiao_ble]
-shield: [tiny20]
+shield: [tiny20_left, tiny20_right]
