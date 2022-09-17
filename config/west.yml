@@ -2,16 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: enzocoralc
-      url-base: https://github.com/enzocoralc
   projects:
-    # - name: zmk
-    #   remote: zmkfirmware
-    #   revision: main
-    #   import: app/west.yml
     - name: zmk
-      remote: enzocoralc
-      revision: seeeduino-xiao-ble-compatible
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
