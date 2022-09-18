@@ -100,7 +100,7 @@
             timeout-ms = <50>;
             key-positions = <14 15>;
 			layers = <0>;
-            bindings = <&kp RA(&kp N)>;
+            bindings = <&kp RA(N)>;
         };
 
         combo_o {
@@ -190,8 +190,8 @@
 
 		numbers_layer {
 			bindings = <
-				&kp ESC   &kp LA(&kp TAB)     &kp LAC(&kp TAB)     &kp N9                &kp N5     &kp N6     &kp N7     &kp N8    
-				&kp TAB   &kp LA(&kp F4)      &kp LC(&kp F4)       &kp N0                &kp N1     &kp N2     &kp N3     &kp N4
+				&kp ESC   &kp LA(TAB)     &kp LC(TAB)     &kp N9                &kp N5     &kp N6     &kp N7     &kp N8    
+				&kp TAB   &kp LA(F4)      &kp LC(F4)       &kp N0                &kp N1     &kp N2     &kp N3     &kp N4
 				                              &kp LCTRL &lt NUMBERS SPACE                &lt NAV ENTER &kp LSHFT
 			>;
 		};
