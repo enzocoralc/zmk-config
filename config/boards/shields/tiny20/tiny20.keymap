@@ -179,7 +179,7 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		// This is a sample keymap intended to be replaced with your own
+		// This is a sample keymap intended to be replaced with your ow
 		default_layer {
 			bindings = <
 				&kp R     &kp S     &kp T     &kp H                 &kp N     &kp E     &kp A     &kp I    
